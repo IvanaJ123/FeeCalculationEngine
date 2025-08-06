@@ -28,6 +28,10 @@ dotnet run
   - `POST /api/fee/batch` – Batch (1000 transactions)
   - `GET /api/fee/history` – All calculated transactions
 
+## Single transaction body request template:
+- available on the swagger request
+- transaction types determined in the rules: 'POS' and 'e-commerce'
+
 ## Batch Test File
 - A batch test file `batch1000.json` is located in:
 /BatchTestData/batch1000.json
